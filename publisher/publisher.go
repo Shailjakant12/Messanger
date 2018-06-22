@@ -31,6 +31,7 @@ func SendData() {
 	if err != nil {
 		fmt.Println(err)
 	}
+	
   conn.Disconnect()
 }
 
